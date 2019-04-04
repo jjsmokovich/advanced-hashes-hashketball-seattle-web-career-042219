@@ -168,5 +168,6 @@ def players
 end
 
 def largest_shoe 
-  players.
+  players.max_by { |name, attri| attri[:shoe] }
 end
+
