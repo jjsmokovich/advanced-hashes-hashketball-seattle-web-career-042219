@@ -148,8 +148,8 @@ def team_names
   return team_list
 end
 
-def teams(team_name)
-  game_hash.values.map {|team| team[:team_name]
+def team_list
+  
 end
 
 
