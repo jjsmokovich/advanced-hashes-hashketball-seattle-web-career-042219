@@ -172,5 +172,5 @@ def largest_shoe
 end
 
 def big_shoe_rebounds 
-  
+  largest_shoe[1][:rebounds]
 end
