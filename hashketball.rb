@@ -163,6 +163,8 @@ def player_stats(player_name)
   end
 end
 
-def players 
-  
+def team_merge
+  game_hash[:home][:players].merge(game_hash[:away][:players])
 end
+
+def
