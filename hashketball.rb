@@ -158,7 +158,7 @@ end
 
 def player_stats(player_name)
   player_search(player_name).each do |key, value|
-    return value
+    value
   end
 end
 
