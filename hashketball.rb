@@ -129,7 +129,9 @@ def num_points_scored(player_name)
   player_search(player_name)[:points] 
 end
 
-def big_foot
+def biggest_shoe
+  
+end
 
 def shoe_size(player_name)
   player_search(player_name)[:shoe]
