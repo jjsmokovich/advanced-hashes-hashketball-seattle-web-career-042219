@@ -168,5 +168,5 @@ def players
 end
 
 def largest_shoe 
-  
+  players.
 end
