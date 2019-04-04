@@ -158,6 +158,9 @@ end
 
 def player_stats(player_name)
   player_search(player_name).each do |key, value|
+    binding.pry
     return "#{key}, #{value}"
   end
 end
+
+def player_stats
