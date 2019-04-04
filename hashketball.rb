@@ -149,7 +149,7 @@ def team_names
 end
 
 def team_list(team_name)
-  
+  game_hash.values.
 end
 
 
