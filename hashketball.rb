@@ -163,8 +163,10 @@ def player_stats(player_name)
   end
 end
 
-def team_merge
+def players
   game_hash[:home][:players].merge(game_hash[:away][:players])
 end
 
-def
+def largest_shoe 
+  
+end
