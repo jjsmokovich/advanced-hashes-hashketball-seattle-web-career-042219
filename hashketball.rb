@@ -156,4 +156,8 @@ def player_numbers(team_name)
   team_list(team_name)[:players].map {|name, stats| stats[:number]}
 end
 
-
+def player_stats(player_name)
+  player_search(player_name).each do |key, value|
+    return "#{key}, #{value}"
+  end
+end
