@@ -153,6 +153,6 @@ def teams(team_name)
 end
 
 def player_numbers(team_name)
-  
+  teams.map
 end
 
