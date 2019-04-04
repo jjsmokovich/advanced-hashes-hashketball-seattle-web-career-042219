@@ -164,5 +164,5 @@ def player_stats(player_name)
 end
 
 def players 
-  game_hash[:home]
+  game_hash[:home][:players]
 end
